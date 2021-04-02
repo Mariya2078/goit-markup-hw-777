@@ -1,0 +1,31 @@
+.about {
+  padding-bottom: 94px;
+}
+.about-img {
+  display: flex;
+}
+.about-img-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-title {
+  margin-bottom: 50px;
+}
+.about-img-item {
+  position: relative;
+}
+.img-about-card {
+  position: absolute;
+  width: 370px;
+  padding: 28px 82px;
+  background: rgba(47, 48, 58, 0.8);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  bottom: 0;
+}

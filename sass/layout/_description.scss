@@ -1,0 +1,48 @@
+.photo-before-list {
+  display: flex;
+  padding-top: 94px;
+}
+.photo-before-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.photo-before-list-icon:not(:last-child) {
+  margin-right: 30px;
+}
+.photo-before-list-item {
+  width: 66px;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+.discription {
+  padding-top: 30px;
+  padding-bottom: 94px;
+}
+.discription-link {
+  display: flex;
+}
+.discription-option {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.discr-li:not(:last-child) {
+  margin-right: 30px;
+}
+.our-idea {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--accent-second-color);
+}
