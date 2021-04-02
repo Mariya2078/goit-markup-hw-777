@@ -27,11 +27,13 @@
   outline: none;
   padding: 16px;
   color: #ffffff;
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &:focus {
+    border-color: rgba(33, 150, 243, 1);
+  }
 }
-.modal-form-input-footer::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
-
 .modal-form-btn-footer {
   width: 200px;
   height: 50px;
@@ -58,7 +60,4 @@
   width: 24px;
   height: 24px;
   fill: #ffffff;
-}
-.modal-form-input-footer:focus {
-  border-color: rgba(33, 150, 243, 1);
 }

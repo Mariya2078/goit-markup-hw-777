@@ -4,14 +4,15 @@
 .about-img {
   display: flex;
 }
-.about-img-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .about-title {
   margin-bottom: 50px;
 }
 .about-img-item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .img-about-card {
   position: absolute;

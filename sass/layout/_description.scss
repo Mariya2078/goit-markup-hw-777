@@ -10,10 +10,11 @@
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.photo-before-list-icon:not(:last-child) {
-  margin-right: 30px;
-}
+
 .photo-before-list-item {
   width: 66px;
   height: 70px;
