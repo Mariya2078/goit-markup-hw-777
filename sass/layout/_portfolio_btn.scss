@@ -7,9 +7,7 @@
 
 .button-nav {
   margin-right: 8px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+  @include font(16px, 500, 1.62);
   text-align: center;
   letter-spacing: 0.03em;
   border: 1px solid transparent;

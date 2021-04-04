@@ -21,17 +21,13 @@
   outline: none;
 }
 .prof-first-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  @include font(16px, 500, 1.19);
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 10px;
 }
 .prof-last-name {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  @include font(16px, 400, 1.19);
   letter-spacing: 0.03em;
   color: var(--accent-second-color);
 }

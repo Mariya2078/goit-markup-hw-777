@@ -1,14 +1,10 @@
 .portfolio-work {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
+  @include font(18px, 700, 2);
   letter-spacing: 0.06em;
   color: #212121;
 }
 .portfolio-discription {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.87;
+  @include font(16px, 400, 1.87);
   letter-spacing: 0.03em;
   color: var(--accent-second-color);
 }
@@ -57,9 +53,7 @@
   position: absolute;
   padding: 63px 24px;
   font-family: var(--main-font);
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.55;
+  @include font(18px, 400, 1.55);
   letter-spacing: 0.03em;
   color: #ffffff;
   background: rgba(33, 150, 243, 0.9);

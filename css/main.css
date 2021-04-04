@@ -209,8 +209,8 @@ body {
 }
 
 .navigation-link {
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
@@ -246,8 +246,8 @@ body {
 
 .mail-link,
 .tel-link {
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-second-color);
@@ -303,8 +303,8 @@ body {
 }
 
 .navigation-link-studio {
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
@@ -338,9 +338,9 @@ body {
 }
 
 .hero-title {
-  font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  font-weight: 900;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -383,9 +383,9 @@ body {
 }
 
 .discription-option {
-  font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -397,9 +397,9 @@ body {
 }
 
 .our-idea {
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  font-weight: 400;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-second-color);
 }
@@ -430,9 +430,8 @@ body {
   padding: 28px 82px;
   background: rgba(47, 48, 58, 0.8);
   font-family: var(--main-font);
-  font-style: normal;
-  font-weight: bold;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
@@ -465,18 +464,18 @@ body {
 }
 
 .prof-first-name {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  font-weight: 500;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 10px;
 }
 
 .prof-last-name {
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  font-weight: 400;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-second-color);
 }
@@ -543,8 +542,8 @@ body {
 
 .button-nav {
   margin-right: 8px;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
@@ -568,16 +567,16 @@ body {
 }
 
 .portfolio-work {
-  font-weight: bold;
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 
 .portfolio-discription {
-  font-weight: normal;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--accent-second-color);
@@ -633,8 +632,8 @@ body {
   position: absolute;
   padding: 63px 24px;
   font-family: var(--main-font);
-  font-weight: normal;
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -829,8 +828,8 @@ body {
 }
 
 .address-link-addres {
-  font-weight: normal;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -838,8 +837,8 @@ body {
 
 .mail-footer,
 .tel-footer {
-  font-weight: normal;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -923,8 +922,8 @@ body {
   width: 219px;
   height: 16px;
   font-family: var(--main-font);
-  font-weight: bold;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -963,8 +962,8 @@ body {
   padding-top: 10px;
   padding-left: 28px;
   font-family: var(--main-font);
-  font-weight: bold;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.87;
   display: flex;
   align-items: center;

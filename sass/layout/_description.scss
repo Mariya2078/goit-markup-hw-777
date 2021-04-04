@@ -29,9 +29,7 @@
   display: flex;
 }
 .discription-option {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
+  @include font(14px, 500, 1.14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -41,9 +39,7 @@
   margin-right: 30px;
 }
 .our-idea {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  @include font(14px, 400, 1.71);
   letter-spacing: 0.03em;
   color: var(--accent-second-color);
 }

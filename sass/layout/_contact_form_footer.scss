@@ -1,6 +1,5 @@
 .footer-form {
   display: block;
-
   padding-top: 72px;
   margin-left: 94px;
 }
@@ -8,9 +7,7 @@
   width: 219px;
   height: 16px;
   font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 700, 1.14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -44,9 +41,7 @@
   padding-top: 10px;
   padding-left: 28px;
   font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
+  @include font(16px, 700, 1.87);
   display: flex;
   align-items: center;
   text-align: center;
